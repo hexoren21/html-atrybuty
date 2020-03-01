@@ -1,0 +1,154 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Przyklad</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="viewoirt" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <nav>
+    <a href="#atrybuty">atrybuty</a> || <a href="#naglowki">nagłówki</a> || <a href="#pogrubienie">pogrubuenie i kursywa</a> || <a href="#listy">listy</a> || 
+    komentarze || tabele || obrazki || ramki || linki || filmy
+    i dźwięk || tagi grupujące encje i symbole || SVG || tagi semantyczne
+  </nav>
+  <header>
+    <h1>
+      Elementy i atrybuty html
+    </h1>
+  </header>
+  <section id="atrybuty">
+    <table >
+      <tr>
+        <th>znak</th>
+        <th>wartość</th>
+      </tr>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td><p>paragraf</p>paragraf1</td>
+      </tr>
+      <tr>
+        <td>&lt;br&gt;</td>
+        <td>jakis<br></td>
+      </tr>
+      <tr>
+        <td>&lt;pre&gt;</td>
+        <td><pre>jakis 
+          kod
+        </pre></td>
+      </tr>
+      <tr id="naglowki">
+        <td colspan="2">Nagłówki</td>
+      </tr>
+      <tr>
+        <td>&lt;h1&gt;<br>
+          &lt;h2&gt;<br>
+          &lt;h3&gt;<br>
+          &lt;h4&gt;<br>
+          &lt;h5&gt;<br>
+          &lt;h6&gt;<br>
+        </td>
+        <td>
+          <h1>h1</h1>
+          <h2>h2</h2>
+          <h3>h3</h3>
+          <h4>h4</h4>
+          <h5>h5</h5>
+          <h6>h6</h6>
+        </td>
+      </tr>
+      <tr id="pogrubienie">
+        <td colspan="2">Pogrubienie i kursywa</td>
+      </tr>
+      <tr>
+        <td>&lt;b&gt;</td>
+        <td><b>pogrubienie</b></td>
+      </tr>
+      <tr>
+        <td>&lt;strong&gt;</td>
+        <td><strong>pogrubienie semantyczne</strong></td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;</td>
+        <td><em>kursywa semantyczna</em></td>
+      </tr>
+      <tr>
+        <td>&lt;i&gt;</td>
+        <td><i>kursywa</i></td>
+      </tr>
+    </table>
+  </section>
+  <section id="listy">
+    <ol type="a">
+      <li>lista</li>
+      <li>numerowana</li>
+    </ol>
+    <br>
+    <ul>
+      <li>lista</li>
+      <li>nienumerowana</li>
+    </ul>
+  </section>
+  <!--komentarz-->
+  <caption>TABELA</caption>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Nagłówek tabeli</th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td colspan="3">stopka tabeli</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+      </tr>
+      <tr>
+        <td>d</td>
+        <td rowspan="2">e</td>
+      </tr>
+      <tr>
+        <td colspan="2">f</td>
+      </tr>
+    </tbody>
+  </table>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Oophaga_pumilio_%28Strawberry_poision_frog%29_%282532163201%29.jpg/1280px-Oophaga_pumilio_%28Strawberry_poision_frog%29_%282532163201%29.jpg" width="200px" height="200px" alt="zabka">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nUevI1jCzew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <a href="https://www.onet.pl/" target="_blank" title="strona onet">
+    www.onet.pl
+  </a>
+  <br>
+  <video width="400px" height="400px" controls>
+    <source src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4" type="video/mp4">
+  </video>
+  <br>
+  <audio width="200px" height="200px" controls>
+    <source src="http://cld2099web.audiovideoweb.com/va90web25003/companions/Foundations%20of%20Rock/13.01.mp3" type="audio/mpeg">
+  </audio>
+  <br>
+  <div>
+    tag blokowy
+  </div>
+  <br>
+  <span>
+    tag liniowy
+  </span>
+  <br>
+  &lt;&gt;&copy;&amp;&quot;&apos;
+  <footer>
+    Wykonane przez &copy; hexoren
+  </footer>
+</body>
+
+</html>
